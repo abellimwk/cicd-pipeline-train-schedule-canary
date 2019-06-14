@@ -28,6 +28,7 @@ spec:
     metadata:
       labels:
         app: train-schedule
+        track: stable
     spec:
       containers:
       - name: train-schedule
