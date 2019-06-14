@@ -13,8 +13,8 @@ spec:
 
 ---
 
+apiVersion: extensions/v1beta1
 kind: Deployment
-apiVersion: v1
 metadata:
   name: train-schedule-deployment
   labels:
